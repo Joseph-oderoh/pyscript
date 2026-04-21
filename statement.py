@@ -24,3 +24,14 @@
 #         print(f"The number : {i}  is even")
 
 
+# user = {"name": "alice", "age": 25 }
+# print(user.keys())
+# print(user.values())
+
+user = {"name": "alice", "age": 25 }
+for key, value in user.items():
+    print(key, value)
+
+
+user.update({"city": "Londan"})
+print(user)
